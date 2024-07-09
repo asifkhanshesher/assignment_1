@@ -16,7 +16,7 @@
 .header_content {
   display: flex;
   justify-content: space-between;
-  margin: 30px 50px;
+  margin: 30px 60px;
 }
 
 .header_btn {
@@ -25,6 +25,7 @@
   padding: 15px 30px;
   background-color: white;
   font-weight: 700;
+  cursor: pointer;
   transition: 0.5s all ease-in-out;
 }
 
@@ -80,6 +81,8 @@
   border-radius: 5px;
   margin-top: 30px;
   transition: 0.5s all ease-in-out;
+  cursor: pointer;
+  font-weight: 800;
 }
 
 .banner_btn:hover {
@@ -274,6 +277,72 @@
 
 /* my target style end */
 
+/* next target style start */
+.next_target {
+  width: 1140px;
+
+  height: 866px;
+
+  margin: 30px auto;
+}
+.next_target_text {
+  width: 946px;
+
+  margin: auto;
+
+  margin-top: 85px;
+}
+.next_target_title {
+  font-size: 32px;
+
+  font-weight: 700;
+}
+.next_target_description {
+  font-size: 16px;
+
+  font-weight: 300;
+
+  margin-top: 24px;
+}
+.next_target_content_title {
+  font-size: 24px;
+
+  font-weight: 800;
+}
+
+.next_target_content_description {
+  font-size: 16px;
+
+  font-weight: 300;
+
+  margin: 15px 0px;
+}
+
+.next_target_content a {
+  font-size: 16px;
+
+  font-weight: 800;
+
+  color: black;
+}
+.next_target_item {
+  display: flex;
+
+  align-items: center;
+
+  gap: 30px;
+
+  border: 1px solid #b1b1b1;
+
+  border-radius: 16px;
+
+  padding: 40px;
+
+  margin-top: 40px;
+}
+
+/* next target style end */
+
 /* support style start */
 .support {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.01)),
@@ -300,8 +369,6 @@
   font-weight: 300;
   margin: 20px 0px 45px 0px;
 }
-.support_form {
-}
 
 #feedback {
   padding: 16px;
@@ -316,12 +383,42 @@
 }
 #submit {
   background-color: white;
+  color: #0d1321;
   font-weight: 800;
   font-size: 14px;
   padding: 16px 25px;
-
   border: transparent;
-
   border-radius: 8px;
+  text-decoration: none;
 }
 /* support style end */
+
+/* footer style */
+.footer_content {
+  background-color: #f7f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 25px 50px;
+}
+
+.footer_content h3 {
+  font-weight: 400;
+}
+
+.footer_content span {
+  font-size: 20px;
+
+  font-weight: 800;
+
+  color: #43abd5;
+}
+.footer_imgs {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+#mrgn {
+  margin-left: -10px;
+}
