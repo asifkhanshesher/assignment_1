@@ -125,21 +125,13 @@
 
 .sub_content {
   width: 950px;
-
   height: 350px;
-
-  background: #ffffff;
-
+  background: #efefef;
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
-
   margin: 50px auto;
-
   padding: 47px;
-
   border-radius: 20px;
 }
 
